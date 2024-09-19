@@ -1,0 +1,18 @@
+.rain{
+    /* here i have to know what is linear-gradient(to left)is */
+    background: linear-gradient(to left,violet,indigo,blue,green,yellow,orange,red);
+    background-clip: text;
+    display: inline;
+    color: transparent;
+    animation: animated 5s linear infinite;
+    text-align: center;
+}
+@keyframes animated {
+    to{background-position-x: 2000px;}
+}
+body{
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
